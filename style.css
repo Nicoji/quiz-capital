@@ -1,0 +1,58 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.quiz-box {
+    border: 6px solid rgb(47, 196, 255);
+    border-radius: 25px;
+    margin-top: 50px;
+    padding: 25px;
+    background-color: rgb(43, 147, 196);
+    color: #FFF;
+}
+
+.question-section {
+    text-align: center;
+    background-color: rgb(47, 196, 255);
+    width: 40%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.question {
+    text-align: center;
+    font-size: 25px;
+}
+
+.country {
+    font-weight: 800;
+}
+
+.options {
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+
+.option {
+    border: 3px solid antiquewhite;
+    background-color: rgb(47, 196, 255);
+    color: #FFF;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.good {
+    background-color: rgb(22, 189, 22);
+}
+
+.wrong {
+    background-color: rgb(230, 43, 43);
+}
