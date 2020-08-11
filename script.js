@@ -6,6 +6,7 @@ const optionsCapital = document.querySelectorAll('.option');
 const gameBoard = document.querySelector('.quiz-box');
 const resultBoard = document.querySelector('.end-game');
 const reset = document.querySelector('.reset');
+const result = document.querySelector('.result');
 
 // Countries and capitals
 const country = ['Suisse', 'Colombie', 'Ghana', 'Corée du Sud',
@@ -105,6 +106,7 @@ const isItGoodAnswer = (event) => {
         
         // Verify if it's the end of the game 
         if(countQuestion == 20) {
+            result.textContent = countGoodAnswer + "/" + countQuestion;
             setTimeout(() => {  gameBoard.classList.add('hide'); }, 1000);
             setTimeout(() => {  resultBoard.classList.remove('hide'); }, 1000);
         } else {
